@@ -37,15 +37,27 @@ RHS: the scatter in sSFR is reduced significantly with increasing stellar mass
 # Cold gas mass as a function of stellar mass
 ![](https://i.imgur.com/SwdctQL.png)
 
-LHS: 
+LHS: We see that the cold gas mass scatter is large with a slight increase of it with increasing stellar mass. 
 
 
-RHS: 
+RHS: In comparison to the fiducial, the scatter is much more narrow and also the slope of the median is steeper. (the reson there is a section of the plot that does not have the 95th percentile is probably because I require for at least 30 galaxies to be in the bin, so those bins probably don't meet that requirement)
 
 
 # Cold gas mass as a function of halo mass
 ![](https://i.imgur.com/AK0BDzf.png)
 
-LHS:
+LHS: Here we see that the cold gas mass scatter is somewhat constant.
 
-RHS:
+RHS: The scatter is more narrow than the fiducial, just like the in above plot. 
+
+---
+
+# Black hole mass as a function of stellar mass colored by the quenched fraction
+![](https://i.imgur.com/A823fgP.png)
+
+The solid line is the median of the distribution and the dashed lines are the 68th and 95th percentiles.
+Note that because I am using data from the mini-millennium simulation run, which has 7652 galaxies in the fiducial run and 10008 in the radio mode off run, there are few galaxies in each bin (although I do have a limit of at least 30 galaxies in each bin). For that reason, I had to make the bin size larger. I am wondering whether I should do those runs using the full millennium box.
+
+
+
+
